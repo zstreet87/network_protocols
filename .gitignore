@@ -1,0 +1,60 @@
+# Build artifacts
+/build/
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Object files
+*.o
+*.lo
+*.la
+*.al
+*.libs
+*.so
+*.so.*
+*.a
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Logs and Debugging Files
+*.log
+*.swp
+*.swo
+*.bak
+*.core
+core.*
+
+# Generated Files
+*.generated.*
+*.gen.*
+
+# Temporary Files
+*.tmp
+*.temp
+*.~*
+*.DS_Store
+
+# Python Bytecode (if using Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor and IDE specific
+.vscode/
+.idea/
+*.iml
+
+# Static analysis and compilation database
+compile_commands.json
+.clangd
+.clang-format
+.clang-tidy
+
+# Nvidia/AMD related debugging
+nvprof.*
+rocprof.*
+*.nvvp
+*.ncu-rep
