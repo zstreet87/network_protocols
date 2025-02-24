@@ -4,7 +4,7 @@ A simple project for learning about different communication protocols.
 
 ## Requirements
 
-Need the ibverb libraries to use the RDMA protocols.
+Need the ibverb libraries to use the RDMA protocols on InfiniBand fabric.
 
 ```bash
 ➜ sudo apt update
